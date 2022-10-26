@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+html {
+    scroll-behavior: smooth;
+}
+.firsthome{
+    background-image: url(/montain.jpg); 
+    background-size: cover; 
+    width: 100%;
+    height: 650px; 
+}
+
+.navbar{
+    position: fixed;
+    z-index: 10000;
+    top: 0;
+    left: 0;  
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.links{
+    margin-right: 92px;
+}
+.logo{
+    padding: 0 82px;
+    height: 60px;
+}
+ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 28px ;     
+}
+
+ul li a{
+    font-weight: bold;
+    font-size: 22px;
+    letter-spacing: 0.11rem;
+    font-family:  "Open Sans", sans-serif;  
+    color: white; 
+}
+h1{
+    text-align: center;
+    font-size: 72px;
+    letter-spacing: 6px;
+    color: #fff;
+    font-family: "Roboto", sans-serif;  
+    padding-top: 200px;
+}
+.text{
+    margin: auto;
+    width:750px;
+    margin-top:12px ;
+    text-align: center;
+    color: #fff;
+    line-height: 32px;
+    letter-spacing: 1px;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+}
+.explore  {
+text-align: center;
+margin-top: 12px;
+}
+.explore button{
+    padding: 16px 18px;
+    letter-spacing: 4px;
+    background: transparent;
+    color: #fff;
+    border-color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 20%);
+    transition: 1s;
+}
+.explore button:hover{
+    color: hsla(182, 63%, 54%);
+    background-color: #fff;
+}
+.class1{
+    height: 80vh;
+    text-align: center;
+}
+.class1 p{
+    font-size: 52px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    color: hsl(209, 61%, 16%);;
+
+}
+.class1 span{
+    color: hsla(182, 63%, 54%);;
+}
+.footer{
+    background-color: hsl(209, 61%, 16%);;
+  
+}
+.footer p{
+    padding-top: 92px;
+    text-align: center;
+    color: #fff;
+    padding-bottom: 62px;
+    font-size: 22px;
+    letter-spacing: 4px;
+} 
+
+.sticky {
+    padding: 10px 15px;
+    background-color: #fff;
+    transition:0.5s;
+}
+
+
+.changecolortext{
+    color: red;
+}
+
+
+header.sticky{
+    padding: 10px 50px;
+    background-color: white;
+    
+}
+
+header.sticky ul li a{
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
